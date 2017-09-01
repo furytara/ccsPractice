@@ -1,0 +1,215 @@
+/* I'm using Ubuntu Condensed font
+/* instead of the original shot font,
+/* I think Ubuntu font is a better fit,
+/* What do you think? 
+/* **************************** */
+
+* {box-sizing:border-box}
+html,body {height:100%}
+
+body {
+  background: -webkit-gradient(linear, left top, #d3e2d4, #819083);
+  background: -webkit-linear-gradient(left top, #d3e2d4, #819083);
+  background: -moz-linear-gradient(left top, #d3e2d4, #819083);
+  background: linear-gradient(left top, #d3e2d4, #819083);
+
+  font: 14px 'Ubuntu Condensed', sans-serif;
+  line-height:1;
+  min-height:580px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.paper {
+  width: 260px;
+  height: 475px;
+  position: absolute;
+  border: 0 solid chocolate;
+  border-radius: 4px;
+  box-shadow: 0 1px 20px 5px #868686;
+  margin: 10px;
+}
+
+.paper.preview-1 {
+  top: 20px;
+  left:100px;
+  background: -webkit-gradient(left top, #f9f7f7, #e6bb85);
+  background: -webkit-linear-gradient(left top, #f9f7f7, #e6bb85);
+  background: -moz-linear-gradient(left top, #f9f7f7, #e6bb85);
+  background: linear-gradient(left top,  #f9f7f7, #e6bb85);
+}
+
+.paper.preview-2 {
+  top: 20px;
+  left:400px;
+  background: -webkit-gradient(left top, #f9f7f7, #f5f5d6);
+  background: -webkit-linear-gradient(left top, #f9f7f7, #f5f5d6);
+  background: -moz-linear-gradient(left top, #f9f7f7, #f5f5d6);
+  background: linear-gradient(left top,  #f9f7f7, #f5f5d6);
+}
+
+.paper.item-active .item {
+  height: 40px;
+}
+
+.box {
+  width: 100%;
+  height: 100%;  
+  overflow: hidden;
+}
+
+.box .bar {
+  height: 75px;
+  padding: 20px;
+  color:#af9a50;
+  box-shadow: 0 4px 5px 0px rgba(0,0,0,.3);
+  position: relative;
+  z-index: 6;
+}
+
+.box .bar .menu {
+  float: left;
+  width: 20px;
+  height: 20px;    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box .bar .menu>span {
+  width: 9px;
+  height: 2px;  
+  display: block;
+  background-color: #c7a864;
+}
+
+.box .bar .action {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+}
+
+.box .item {  
+  box-shadow: 0 4px 5px 0px rgba(0,0,0,.3);
+  background-color: #9e9e9e;
+  position: relative;
+  height: 100px;
+  padding:20px;
+  font-size: 21px;
+  overflow: hidden;
+  transition: all 500ms ease;
+}
+
+.box .item.active {
+  height:250px;
+}
+
+.box .item.active .item-icon{
+  float:none;
+  margin: 0 auto;  
+  transform: scale(1.5) translateZ(0);
+}
+
+.box .item.active .box>p{  
+  font-size:30px;
+  text-align: center;
+}
+
+.box .item .detail>div {      
+    width: 100%;
+    height: 25px;
+    overflow-y: hidden;
+    float: left;
+    font-size: 15px;    
+}
+
+.box .item .detail>div>p {      
+    width: 50%;
+    float: left;
+}
+
+.box .item .detail>div .counter {      
+    width: 50%;
+    float: left;  
+    text-align: right;  
+}
+
+.box .item .detail>div .counter>.number{    
+  width:20px;  
+  user-select: none;
+}
+
+.box .item .detail>div .counter>div {      
+    width: 20px;    
+    text-align: center;      
+    margin-right:4px;
+    background-color: #f9f7f7;
+    cursor: pointer;
+    float: right;
+    user-select: none;
+}
+
+.box .item .detail>div .plus {        
+    border-radius: 0 4px 4px 0;
+    margin-left:1px;
+}
+
+.box .item .detail>div .minus {
+    border-radius: 4px 0 0 4px;
+    margin-left:11px;
+}
+
+.box .item .item-icon {
+  float: left;
+  width: 65px;
+  height: 65px;
+  margin-right: 10px;
+  background: url("https://image.ibb.co/b6zDSF/items_icons_t.png") no-repeat top left;
+  transition: all 500ms ease;
+}
+
+.box .item>.box>p {  
+  line-height: 65px;  
+}
+
+
+.box .item.coffee {
+  background: linear-gradient(135deg,#ffe26f,#e8c962);
+  color: #e07556;
+  z-index: 4;
+}
+
+.box .item.coffee .item-icon.coffee {
+  background-position: 0 0;
+}
+
+.box .item.sweet {
+  background: linear-gradient(135deg,#f3825f,#f3825f);
+  color: #9c3c53;
+  z-index: 3;
+}
+
+.box .item.sweet .item-icon.sweet {
+  background-position: -70px 0;
+}
+
+.box .item.food {
+  background: linear-gradient(135deg,#a7425c,#993950);
+  color: #402344;
+  z-index: 2;
+}
+
+.box .item.food .item-icon.food {
+  background-position: -135px 0;
+}
+
+.box .item.drink {
+  background: linear-gradient(135deg,#563761,#502f55);
+  color: #1c1730;
+  z-index: 1;
+}
+
+.box .item.drink .item-icon.drink {
+  background-position: -205px 0;
+}
+
+

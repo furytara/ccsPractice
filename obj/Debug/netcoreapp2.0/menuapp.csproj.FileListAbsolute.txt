@@ -1,0 +1,10 @@
+D:\Pracices\codepen\menuapp\bin\Debug\netcoreapp2.0\menuapp.deps.json
+D:\Pracices\codepen\menuapp\bin\Debug\netcoreapp2.0\menuapp.runtimeconfig.json
+D:\Pracices\codepen\menuapp\bin\Debug\netcoreapp2.0\menuapp.runtimeconfig.dev.json
+D:\Pracices\codepen\menuapp\bin\Debug\netcoreapp2.0\menuapp.dll
+D:\Pracices\codepen\menuapp\bin\Debug\netcoreapp2.0\menuapp.pdb
+D:\Pracices\codepen\menuapp\obj\Debug\netcoreapp2.0\menuapp.csproj.CoreCompileInputs.cache
+D:\Pracices\codepen\menuapp\obj\Debug\netcoreapp2.0\menuapp.AssemblyInfoInputs.cache
+D:\Pracices\codepen\menuapp\obj\Debug\netcoreapp2.0\menuapp.AssemblyInfo.cs
+D:\Pracices\codepen\menuapp\obj\Debug\netcoreapp2.0\menuapp.dll
+D:\Pracices\codepen\menuapp\obj\Debug\netcoreapp2.0\menuapp.pdb

@@ -1,0 +1,33 @@
+@{
+    Layout = "../Shared/_InHandLayout.cshtml";
+}
+
+@section StyleSheet{    
+     <!--render from main page dev-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/simple-flat.css" />
+}
+<h1><a href="http://dribbble.com/shots/939676" target="_blank">Simple Flat Menu</a></h1>
+
+<div class="content">
+  <div class="mainBar">
+    <div class="liked">Liked</div>
+    <div class="listen">Listen</div>
+    <label class="cog fa fa-cog" for="toggle"></label>
+  </div>
+  <input type="checkbox" id="toggle">
+  <div class="menu">
+    <a href="#">Messages</a>
+    <a href="#">Dashboard</a>
+    <a href="#">Recent Activity</a>
+    <a href="#">Unlike</a>
+  </div>
+</div>
+
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>    
+}

@@ -1,0 +1,328 @@
+@{
+    Layout = "../Shared/_InHandLayout.cshtml";
+}
+
+<!-- Menu App Interface
+<!-- Based on a Dribbble shot
+<!-- that caught my eye 
+<!-- http://drbl.in/pWyx
+<!-- ---------------------------------- -->
+
+@section StyleSheet{    
+    <environment include="Development">
+        <!--render from main page dev-->
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/menu.css" />
+    </environment>
+    <environment exclude="Development">
+        <!--render from main page-->
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/menu.css" asp-append-version="true" />
+    </environment>
+}
+
+<div class="paper preview-1">
+    <div class="box">
+        <div class="bar">
+            <div class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> 
+            <p>Menu</p>
+            <span><span class="items-total">0</span> Items</span>
+            <div class="action">Done</div>
+        </div>
+        <div class="item coffee">
+            <div class="box">
+                <div class="item-icon coffee"></div>
+                <p>Coffee</p>
+                <div class="detail">
+                    <div>
+                        <p>Espresso</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <p>Cappuccino</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Lato</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="item sweet">
+            <div class="box">
+                <div class="item-icon sweet"></div>
+                <p>Sweet</p>
+                <div class="detail">
+                    <div>
+                        <p>Baklava</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <p>Kunafeh Nabulsia</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Basbousa</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item food">
+            <div class="box">
+                <div class="item-icon food"></div>
+                <p>Food</p>
+                <div class="detail">
+                    <div>
+                        <p>Shawarma</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <p>Foul Mudammes</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Falafel</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="item drink">
+            <div class="box">
+                <div class="item-icon drink"></div>
+                <p>Drink</p>
+                <div class="detail">
+                    <div>
+                        <p>Tamer Hindi</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <p>Jalab</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="paper preview-2 item-active">
+    <div class="box">
+        <div class="bar">
+            <div class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <p>Menu</p>
+            <span><span class="items-total">2</span> Items</span>
+            <div class="action">Done</div>
+        </div>
+        <div class="item coffee active">
+            <div class="box">
+                <div class="item-icon coffee"></div>
+                <p>Coffee</p>
+                <div class="detail">
+                    <div>
+                        <p>Espresso</p>
+                        <div class="counter">
+                            <span class="number" style="display:inline">2</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <p>Cappuccino</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Lato</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="item sweet">
+            <div class="box">
+                <div class="item-icon sweet"></div>
+                <p>Sweet</p>
+                <div class="detail">
+                    <div>
+                        <p>Baklava</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <p>Kunafeh Nabulsia</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Basbousa</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item food">
+            <div class="box">
+                <div class="item-icon food"></div>
+                <p>Food</p>
+                <div class="detail">
+                    <div>
+                        <p>Shawarma</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <p>Foul Mudammes</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Falafel</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="item drink">
+            <div class="box">
+                <div class="item-icon drink"></div>
+                <p>Drink</p>
+                <div class="detail">
+                    <div>
+                        <p>Tamer Hindi</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <p>Jalab</p>
+                        <div class="counter">
+                            <span class="number">0</span>
+                            <div class="plus">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/menu.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/menu.js" asp-append-version="true"></script>
+    </environment>
+}
