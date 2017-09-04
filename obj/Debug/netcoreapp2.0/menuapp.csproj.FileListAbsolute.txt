@@ -8,3 +8,13 @@ D:\Pracices\codepen\menuapp\obj\Debug\netcoreapp2.0\menuapp.AssemblyInfoInputs.c
 D:\Pracices\codepen\menuapp\obj\Debug\netcoreapp2.0\menuapp.AssemblyInfo.cs
 D:\Pracices\codepen\menuapp\obj\Debug\netcoreapp2.0\menuapp.dll
 D:\Pracices\codepen\menuapp\obj\Debug\netcoreapp2.0\menuapp.pdb
+C:\Users\hongocdoanh\OneDrive\frontend hero\cssPractice\ccsPractice\bin\Debug\netcoreapp2.0\menuapp.deps.json
+C:\Users\hongocdoanh\OneDrive\frontend hero\cssPractice\ccsPractice\bin\Debug\netcoreapp2.0\menuapp.runtimeconfig.json
+C:\Users\hongocdoanh\OneDrive\frontend hero\cssPractice\ccsPractice\bin\Debug\netcoreapp2.0\menuapp.runtimeconfig.dev.json
+C:\Users\hongocdoanh\OneDrive\frontend hero\cssPractice\ccsPractice\bin\Debug\netcoreapp2.0\menuapp.dll
+C:\Users\hongocdoanh\OneDrive\frontend hero\cssPractice\ccsPractice\bin\Debug\netcoreapp2.0\menuapp.pdb
+C:\Users\hongocdoanh\OneDrive\frontend hero\cssPractice\ccsPractice\obj\Debug\netcoreapp2.0\menuapp.csproj.CoreCompileInputs.cache
+C:\Users\hongocdoanh\OneDrive\frontend hero\cssPractice\ccsPractice\obj\Debug\netcoreapp2.0\menuapp.AssemblyInfoInputs.cache
+C:\Users\hongocdoanh\OneDrive\frontend hero\cssPractice\ccsPractice\obj\Debug\netcoreapp2.0\menuapp.AssemblyInfo.cs
+C:\Users\hongocdoanh\OneDrive\frontend hero\cssPractice\ccsPractice\obj\Debug\netcoreapp2.0\menuapp.dll
+C:\Users\hongocdoanh\OneDrive\frontend hero\cssPractice\ccsPractice\obj\Debug\netcoreapp2.0\menuapp.pdb

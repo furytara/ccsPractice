@@ -1,0 +1,36 @@
+@{
+    Layout = "../Shared/_InHandLayout.cshtml";
+}
+
+<!-- Menu App Interface
+<!-- Based on a Dribbble shot
+<!-- that caught my eye 
+<!-- http://drbl.in/pWyx
+<!-- ---------------------------------- -->
+
+@section StyleSheet{    
+    <!--render from main page dev-->
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed" rel="stylesheet">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/reset.css" />
+    <link rel="stylesheet" href="~/css/dropbox.css" />
+}
+
+<div>
+    <header>
+        <section class="supernav">
+            <div class="supernav__section left-x">This is on left side</div>
+            <div class="supernav__section">This is on right side</div>
+        </section>
+    </header>
+    <main>
+        <section class="hero">This is main part of header</section>
+    </main>
+</div>
+
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/dropbox.js" asp-append-version="true"></script>    
+}
+

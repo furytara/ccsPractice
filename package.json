@@ -1,0 +1,25 @@
+{
+  "name": "csspro",
+  "version": "1.0.0",
+  "description": "just do it ",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-less": "^3.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furytara/ccsPractice.git"
+  },
+  "author": "Doanh Ho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furytara/ccsPractice/issues"
+  },
+  "homepage": "https://github.com/furytara/ccsPractice#readme"
+}
